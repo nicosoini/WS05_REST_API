@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshop 05 | Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <nav class="nav nav--compact">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/blog">Blog</a>
+    </nav>
+    <section class="panel panel--feature">
+      <p class="eyebrow">Blog</p>
+      <h1>This route introduces the new REST resource</h1>
+      <p>The page route is <strong>/blog</strong>, but the actual data operations happen through <strong>/api/posts</strong>.</p>
+      <div class="api-list">
+        <div><span>POST</span><code>/api/posts</code></div>
+        <div><span>GET</span><code>/api/posts</code></div>
+        <div><span>GET</span><code>/api/posts/:id</code></div>
+        <div><span>PUT</span><code>/api/posts/:id</code></div>
+        <div><span>DELETE</span><code>/api/posts/:id</code></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
