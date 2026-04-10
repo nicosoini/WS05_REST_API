@@ -18,7 +18,6 @@ const postSchema = new mongoose.Schema({
   },
 },
   {
-    // TODO (student): Keep timestamps enabled (or decide based on requirements).
     timestamps: true
   }
 );

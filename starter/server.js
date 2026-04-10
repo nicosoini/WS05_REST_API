@@ -29,10 +29,8 @@ app.locals.publicDir = publicDir;
 app.use(express.json());
 app.use(express.static(publicDir));
 
-// TODO: Complete the page routes in routes/pages.js.
 app.use('/', pagesRouter);
 
-// TODO: Complete the API routes in routes/posts.js.
 app.use('/api/posts', postsRouter);
 
 app.use((req, res) => {

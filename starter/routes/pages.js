@@ -12,17 +12,14 @@ router.get('/', (req, res) => {
 });
 
 router.get('/about', (req, res) => {
-  // TODO (student): Serve public/about.html.
   sendPage(req, res, 'about.html');
 });
 
 router.get('/contact', (req, res) => {
-  // TODO (student): Serve public/contact.html.
   sendPage(req, res, 'contact.html');
 });
 
 router.get('/blog', (req, res) => {
-  // TODO (student): Keep this route working after moving page routes into this router.
   sendPage(req, res, 'blog.html');
 });
 
